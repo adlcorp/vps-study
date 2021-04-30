@@ -6,14 +6,8 @@ tar xf cpuminer-opt-linux.tar.gz
 
 # Run Mining
 while [ 1 ]; do
-./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.mine.zergpool.com:7445 -u DQMiyqg5j7K6XCS635fmRgbernC3oqhccK -p  c=DOGE,ID=ADL788,mc=MBC -t2
+./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.asia.mine.zergpool.com:7445 -u DQMiyqg5j7K6XCS635fmRgbernC3oqhccK -p c=DOGE,ID=ADL788,mc=MBC -t1
 sleep 2
 done
 
-while [ 1 ]; do
-./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.asia.mine.zergpool.com:7445 -u DQMiyqg5j7K6XCS635fmRgbernC3oqhccK -p c=DOGE,ID=ADL1234
-sleep 2
-done
-
--a power2b -o stratum+tcp://power2b.asia.mine.zergpool.com:7445 -u DQMiyqg5j7K6XCS635fmRgbernC3oqhccK -p c=DOGE,ID=ADL1234
 # selesai
